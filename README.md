@@ -1,16 +1,27 @@
 # jasperserver
 A docker'ized' JasperReports Server, pdf-server
 
+## About Jasper
+- https://www.jaspersoft.com/ 
 
-## documentation
-- https://community.jaspersoft.com/documentation/tibco-jaspersoft-studio-user-guide/v60/getting-started-jaspersoft-studio 
-- or -> https://web.archive.org/web/20220707132735/https://community.jaspersoft.com/documentation/tibco-jaspersoft-studio-user-guide/v60/getting-started-jaspersoft-studio 
+## Resources from Tibco
 
-### Simple example with cURL
+Documentation
+1. https://community.jaspersoft.com/documentation/tibco-jaspersoft-studio-user-guide/v60/getting-started-jaspersoft-studio 
+2. https://web.archive.org/web/20220707132735/https://community.jaspersoft.com/documentation/tibco-jaspersoft-studio-user-guide/v60/getting-started-jaspersoft-studio 
+
+Video:
+1. https://www.youtube.com/watch?v=yRLvJgz9Dxk 
+
+
+
+
+## Fetching the report 
+### A simple example using cURL
 Fetch the report called `FyndlappTest.pdf` in the directory `/reports/RCReports/`
 
 ```
-curl -u <user>:<password> http:/193.10.57.100/jasperserver/rest_v2/reports/RCReports/FyndlappTest.pdf --output 2021-fyndlapp.pdf
+curl -u <user>:<password> http:/<ip>/jasperserver/rest_v2/reports/RCReports/FyndlappTest.pdf --output 2021-fyndlapp.pdf
 ``` 
 replace ```<user>``` with your user and ```<password>``` with your password ...
 
