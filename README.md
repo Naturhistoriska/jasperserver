@@ -16,7 +16,7 @@ Video:
 
 
 
-## Fetching the report 
+## Fetching the report from our server
 ### A simple example using cURL
 Fetch the report called `FyndlappTest.pdf` in the directory `/reports/RCReports/`
 
@@ -24,4 +24,23 @@ Fetch the report called `FyndlappTest.pdf` in the directory `/reports/RCReports/
 curl -u <user>:<password> http:/<ip>/jasperserver/rest_v2/reports/RCReports/FyndlappTest.pdf --output 2021-fyndlapp.pdf
 ``` 
 replace ```<user>``` with your user and ```<password>``` with your password ...
+
+# How to create Reports
+
+## 'Jaspersoft Studio'
+- https://community.jaspersoft.com/project/jaspersoft-studio 
+
+### Download 'Jaspersoft Studio CE' 
+- Download the Community Edition (CE)
+- https://community.jaspersoft.com/community-download 
+
+### Getting started with Jaspersoft Studio
+- https://community.jaspersoft.com/wiki/getting-started-jaspersoft-studio 
+
+### Introduction to Jaspersoft Studio
+- https://community.jaspersoft.com/wiki/introduction-jaspersoft-studio 
+
+### Designing a report
+- https://community.jaspersoft.com/wiki/designing-report-jaspersoft-studio 
+
 
