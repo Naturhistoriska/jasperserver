@@ -1,4 +1,5 @@
-# jasperserver
+# JasperReports Server 
+
 A docker'ized' JasperReports Server, pdf-server
 
 ## About Jasper
