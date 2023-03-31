@@ -14,8 +14,6 @@ Video:
 1. https://www.youtube.com/watch?v=yRLvJgz9Dxk 
 
 
-
-
 ## Fetching the report from our server
 ### A simple example using cURL
 Fetch the report called `FyndlappTest.pdf` in the directory `/reports/RCReports/`
@@ -27,12 +25,13 @@ replace ```<user>``` with your user and ```<password>``` with your password ...
 
 # How to create Reports
 
-## 'Jaspersoft Studio'
-- https://community.jaspersoft.com/project/jaspersoft-studio 
 
-### Download 'Jaspersoft Studio CE' 
+### Download the IDE ->  'Jaspersoft Studio CE' 
 - Download the Community Edition (CE)
 - https://community.jaspersoft.com/community-download 
+
+## Jaspersoft Studio
+- https://community.jaspersoft.com/project/jaspersoft-studio 
 
 ### Getting started with Jaspersoft Studio
 - https://community.jaspersoft.com/wiki/getting-started-jaspersoft-studio 
